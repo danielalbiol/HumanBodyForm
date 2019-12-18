@@ -81,6 +81,7 @@ function frt_addEvent(id,relationId){
 
 function bck_addEvent(id,relationId){
 	var _obj = jQuery('#'+id);
+	var created = true;
 	_obj.attr({'fill':bck_config[id]['upColor'],'fill-opacity':bck_config[id]['upOpacity'],'stroke':bck_config[id]['outlineUpColor'],'stroke-opacity':bck_config[id]['outlineUpOpacity']});
 	_obj.attr({'cursor':'default'});
 	if(bck_config[id]['enable'] == true){
@@ -107,21 +108,20 @@ function bck_addEvent(id,relationId){
 		_obj.attr({'cursor':'pointer'});
 		_obj.hover(function(){
 			jQuery('#tipanatomy').show().html(bck_config[id]['hover']);
-			_obj.css({'fill':bck_config[id]['overColor'],'fill-opacity':bck_config[id]['overOpacity'],'stroke':bck_config[id]['outlineOverColor'],'stroke-opacity':bck_config[id]['outlineOverOpacity']})
+			//_obj.css({'fill':bck_config[id]['overColor'],'fill-opacity':bck_config[id]['overOpacity'],'stroke':bck_config[id]['outlineOverColor'],'stroke-opacity':bck_config[id]['outlineOverOpacity']})
 		},function(){
 			jQuery('#tipanatomy').hide();
-			jQuery('#'+id).css({'fill':bck_config[id]['upColor'],'fill-opacity':bck_config[id]['upOpacity'],'stroke':bck_config[id]['outlineUpColor'],'stroke-opacity':bck_config[id]['outlineUpOpacity']});
+			//jQuery('#'+id).css({'fill':bck_config[id]['upColor'],'fill-opacity':bck_config[id]['upOpacity'],'stroke':bck_config[id]['outlineUpColor'],'stroke-opacity':bck_config[id]['outlineUpOpacity']});
 		})
 		_obj.mousedown(function(){
-			jQuery('#'+id).css({'fill':bck_config[id]['downColor'],'fill-opacity':bck_config[id]['downOpacity'],'stroke':bck_config[id]['outlineDownColor'],'stroke-opacity':bck_config[id]['outlineDownOpacity']});
-		})
-		_obj.mouseup(function(){
-			jQuery('#'+id).css({'fill':bck_config[id]['overColor'],'fill-opacity':bck_config[id]['overOpacity'],'stroke':bck_config[id]['outlineOverColor'],'stroke-opacity':bck_config[id]['outlineOverOpacity']});
-			if(bck_config[id]['target'] == 'new_window'){
-				window.open(bck_config[id]['url']);	
-			}else if(bck_config[id]['target'] == 'same_window'){
-				window.parent.location.href=bck_config[id]['url'];
-			}
+			//Comprobar si la parte del cuerpo se ha seleccionado o no
+			 if(created) {
+				jQuery('#'+id).css({'fill':bck_config[id]['overColor'],'fill-opacity':bck_config[id]['overOpacity'],'stroke':bck_config[id]['outlineOverColor'],'stroke-opacity':bck_config[id]['outlineOverOpacity']})
+				created = false;
+			} else {
+				jQuery('#'+id).css({'fill':bck_config[id]['upColor'],'fill-opacity':bck_config[id]['upOpacity'],'stroke':bck_config[id]['outlineUpColor'],'stroke-opacity':bck_config[id]['outlineUpOpacity']});
+				created = true;
+			} 
 		})
 		_obj.mousemove(function(e){
 			var x=e.pageX+10, y=e.pageY+15;
