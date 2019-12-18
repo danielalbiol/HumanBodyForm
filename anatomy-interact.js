@@ -5,6 +5,8 @@ function isTouchEnabled() {
 		|| (navigator.msMaxTouchPoints > 0));
 }
 
+var array_zonas = [];
+
 jQuery(document).ready(function(){
 	jQuery('#anatomybaseback').hide().animate({'opacity':'0'}, 1000);
 
@@ -64,9 +66,25 @@ function frt_addEvent(id,relationId){
 			 if(created) {
 				jQuery('#'+id).css({'fill':frt_config[id]['overColor'],'fill-opacity':frt_config[id]['overOpacity'],'stroke':frt_config[id]['outlineOverColor'],'stroke-opacity':frt_config[id]['outlineOverOpacity']})
 				created = false;
+
+				//Añadir las zonas seleccionadas al array para mostrarlas 
+				array_zonas.push(frt_config[id]['hover']);
+				var str = "";
+				array_zonas.forEach(zona => {
+					str = str  + " " + zona;
+				});
+				jQuery('#zona-tatuaje').val(str);
 			} else {
 				jQuery('#'+id).css({'fill':frt_config[id]['upColor'],'fill-opacity':frt_config[id]['upOpacity'],'stroke':frt_config[id]['outlineUpColor'],'stroke-opacity':frt_config[id]['outlineUpOpacity']});
 				created = true;
+
+				//Eliminar las zonas seleccionadas al array para mostrarlas 
+				array_zonas.splice( array_zonas.indexOf(frt_config[id]['hover']), 1 );
+				var str = "";
+				array_zonas.forEach(zona => {
+					str = str  + " " + zona;
+				});
+				jQuery('#zona-tatuaje').val(str);
 			} 
 		})
 		_obj.mousemove(function(e){
@@ -118,9 +136,25 @@ function bck_addEvent(id,relationId){
 			 if(created) {
 				jQuery('#'+id).css({'fill':bck_config[id]['overColor'],'fill-opacity':bck_config[id]['overOpacity'],'stroke':bck_config[id]['outlineOverColor'],'stroke-opacity':bck_config[id]['outlineOverOpacity']})
 				created = false;
+
+				//Añadir las zonas seleccionadas al array para mostrarlas 
+				array_zonas.push(bck_config[id]['hover']);
+				var str = "";
+				array_zonas.forEach(zona => {
+					str = str  + " " + zona;
+				});
+				jQuery('#zona-tatuaje').val(str);
 			} else {
 				jQuery('#'+id).css({'fill':bck_config[id]['upColor'],'fill-opacity':bck_config[id]['upOpacity'],'stroke':bck_config[id]['outlineUpColor'],'stroke-opacity':bck_config[id]['outlineUpOpacity']});
 				created = true;
+
+				//Eliminar las zonas seleccionadas al array para mostrarlas 
+				array_zonas.splice( array_zonas.indexOf(bck_config[id]['hover']), 1 );
+				var str = "";
+				array_zonas.forEach(zona => {
+					str = str  + " " + zona;
+				});
+				jQuery('#zona-tatuaje').val(str);
 			} 
 		})
 		_obj.mousemove(function(e){

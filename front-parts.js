@@ -1,6 +1,6 @@
 var frt_config = {
 	'frt_1':{
-		'hover': '<b><u>CABEZA</u></b><br>Write any text and load images<br><img src="hover.png">',//organ hover content
+		'hover': 'CABEZA',//organ hover content
 		'enable':true,//true/false to enable/disable this organ
 		'url':'http://www.humananatomyillustrations.com/',//Goto URL
 		'target':'same_window',//open link in new window:new_window, open in current window:same_window, or none for nothing.
@@ -21,7 +21,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',// opacity of that color from 0-1 (e.g 0.3, can be 0 to hide it)
 	},
 	'frt_2':{
-		'hover': '<b><u>CUELLO</u></b><br><span style="color: #808080;">Set any part as:<br><b>"active"</b> > clickable or<br><b>"inactive"</b> > not clickable.</span>',
+		'hover': 'CUELLO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -42,7 +42,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_3':{
-		'hover': '<b><u>PECHO</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'PECHO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -63,7 +63,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_4':{
-		'hover': '<b><u>ABDOMEN</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'ABDOMEN',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -84,7 +84,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_5':{
-		'hover': '<b><u>PELVIS</u></b><br><span style="color: #ff1a75;">*Link each part to any webpage*</span>',
+		'hover': 'PELVIS',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -105,7 +105,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_6':{
-		'hover': '<b><u>PUBIS</u></b><br><span style="color: #808080;">Set any part as:<br><b>"active"</b> > clickable or<br><b>"inactive"</b> > not clickable.</span>',
+		'hover': 'PUBIS',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -126,7 +126,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_7':{
-		'hover': '<b><u>HOMBRO IZQUIERDO</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'HOMBRO IZQUIERDO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -147,7 +147,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_8':{
-		'hover': '<b><u>HOMBRO DERECHO</u></b><br>Change the color of each<br>part independently.',
+		'hover': 'HOMBRO DERECHO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -168,7 +168,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_9':{
-		'hover': '<b><u>BÍCEPS IZQUIERDO</u></b><br><span style="color: #ff1a75;">*Link each part to any webpage*</span>',
+		'hover': 'BÍCEPS IZQUIERDO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -210,7 +210,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_11':{
-		'hover': '<b><u>CODO IZQUIERDO</u></b><br><span style="color: #808080;">Set any part as:<br><b>"active"</b> > clickable or<br><b>"inactive"</b> > not clickable.</span>',
+		'hover': 'CODO IZQUIERDO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -231,7 +231,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_12':{
-		'hover': '<b><u>CODO DERECHO</u></b><br><span style="color: #ff1a75;">*Link each part to any webpage*</span>',
+		'hover': 'CODO DERECHO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -273,7 +273,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_14':{
-		'hover': '<b><u>ANTEBRAZO DERECHO</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'ANTEBRAZO DERECHO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -294,7 +294,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_15':{
-		'hover': '<b><u>MUÑECA IZQUIERDA</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'MUÑECA IZQUIERDA',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -315,7 +315,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_16':{
-		'hover': '<b><u>MUÑECA DERECHA</u></b><br><span style="color: #ff1a75;">*Link each part to any webpage*</span>',
+		'hover': 'MUÑECA DERECHA',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -336,7 +336,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_17':{
-		'hover': '<b><u>MANO IZQUIERDA</u></b><br><span style="color: #ff1a75;">*Link each part to any webpage*</span>',
+		'hover': 'MANO IZQUIERDA',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -357,7 +357,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_18':{
-		'hover': '<b><u>MANO DERECHA</u></b><br><span style="color: #808080;">Set any part as:<br><b>"active"</b> > clickable or<br><b>"inactive"</b> > not clickable.</span>',
+		'hover': 'MANO DERECHA',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -378,7 +378,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_19':{
-		'hover': '<b><u>MUSLO IZQUIERDO</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'MUSLO IZQUIERDO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -399,7 +399,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_20':{
-		'hover': '<b><u>MUSLO DERECHO</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'MUSLO DERECHO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -420,7 +420,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_21':{
-		'hover': '<b><u>RODILLA IZQUIERDA</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'RODILLA IZQUIERDA',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -441,7 +441,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_22':{
-		'hover': '<b><u>RODILLA DERECHA</u></b><br><span style="color: #ff1a75;">*Link each part to any webpage*</span>',
+		'hover': 'RODILLA DERECHA',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -462,7 +462,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_23':{
-		'hover': '<b><u>PIERNA IZQUIERDA</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'PIERNA IZQUIERDA',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -483,7 +483,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_24':{
-		'hover': '<b><u>PIERNA DERECHA</u></b><br><span style="color: #ff1a75;">*Link each part to any webpage*</span>',
+		'hover': 'PIERNA DERECHA',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -504,7 +504,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_25':{
-		'hover': '<b><u>TOBILLO IZQUIERDO</u></b><br><span style="color: #ff1a75;">*Link each part to any webpage*</span>',
+		'hover': 'TOBILLO IZQUIERDO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -525,7 +525,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_26':{
-		'hover': '<b><u>TOBILLO DERECHO</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'TOBILLO DERECHO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -546,7 +546,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_27':{
-		'hover': '<b><u>PIE IZQUIERDO</u></b><br>Write any text and load images<br><img src="hover.png">',
+		'hover': 'PIE IZQUIERDO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',
@@ -567,7 +567,7 @@ var frt_config = {
 		'outlineDownOpacity':'1',
 	},
 	'frt_28':{
-		'hover': '<b><u>PIE DERECHO</u></b><br><span style="color: #808080;">Set any part as:<br><b>"active"</b> > clickable or<br><b>"inactive"</b> > not clickable.</span>',
+		'hover': 'PIE DERECHO',
 		'enable':true,
 		'url':'http://www.humananatomyillustrations.com/',
 		'target':'same_window',

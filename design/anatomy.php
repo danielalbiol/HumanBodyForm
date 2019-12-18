@@ -74,3 +74,17 @@
 	</div>
 </div>
 <div class="clear"></div>
+
+<form action=""  method="post" class="wpcf7-form" novalidate="novalidate">
+	<p>
+		<label> 
+			Zona del Tatuaje <br>
+    		<span class="wpcf7-form-control-wrap your-name">
+				<input type="text" name="your-name" id="zona-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+			</span> 
+		</label>
+	</p>
+	<p>
+		<input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit">
+	</p>
+</form>
