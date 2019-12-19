@@ -1,1 +1,3 @@
-Use this shortcode `[anatomy_back]` to display the diagram in any page or post.
+## Formulario del cuerpo humano interactivo
+
+Utilizar este shortcode `[anatomy_back]` para mostrar el cuerpo humano y el formulario en cualquier página.
