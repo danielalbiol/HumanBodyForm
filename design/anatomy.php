@@ -1,3 +1,8 @@
+<p>
+	<label> 
+		Zona del Tatuaje <br> 
+	</label>
+</p>
 <div id="anatomywrapper"><!-- v1.0 -->
 	<div id="anatomybase">
 		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1350" xml:space="preserve">
@@ -76,12 +81,64 @@
 <div class="clear"></div>
 
 <form action=""  method="post" class="wpcf7-form" novalidate="novalidate">
-	<p>
+	<p class="form-item">
 		<label> 
-			Zona del Tatuaje <br>
     		<span class="wpcf7-form-control-wrap your-name">
-				<input type="text" name="your-name" id="zona-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+				<input type="text" name="zona-tatuaje" id="zona-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" disabled aria-required="true" aria-invalid="false">
 			</span> 
+		</label>
+	</p>
+	<p class="form-item">
+		<label> 
+			¿En qué lado? <br>
+    		<span class="wpcf7-form-control-wrap radio-lado-tatuaje">
+				<span class="wpcf7-form-control wpcf7-radio">
+					<span class="wpcf7-list-item first">
+						<input type="radio" name="radio-lado-tatuaje" value="Izquierdo" checked="checked">
+						<span class="wpcf7-list-item-label">Izquierdo</span>
+					</span>
+					<span class="wpcf7-list-item">
+						<input type="radio" name="radio-lado-tatuaje" value="Centrado">
+						<span class="wpcf7-list-item-label">Centrado</span>
+					</span>
+					<span class="wpcf7-list-item last">
+						<input type="radio" name="radio-lado-tatuaje" value="Derecho">
+						<span class="wpcf7-list-item-label">Derecho</span>
+					</span>
+				</span>
+			</span>
+		</label>
+	</p>
+	<p class="form-item">
+		<label> 
+			Nombre <br>
+    		<span class="wpcf7-form-control-wrap your-name">
+				<input type="text" name="nombre-tatuaje" id="nombre-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+			</span> 
+		</label>
+	</p>
+	<p class="form-item">
+		<label> 
+			E-mail <br>
+    		<span class="wpcf7-form-control-wrap your-name">
+				<input type="text" name="email-tatuaje" id="email-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+			</span> 
+		</label>
+	</p>
+	<p class="form-item">
+		<label> 
+			Número de teléfono <br>
+    		<span class="wpcf7-form-control-wrap your-name">
+				<input type="number" name="telefono-tatuaje" id="telefono-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+			</span> 
+		</label>
+	</p>
+	<p class="form-item">
+		<label> 
+			Elige el país <br>
+			<span class="wpcf7-form-control-wrap your-name">
+				<?php include 'countries-select.php'; ?>
+			</span>
 		</label>
 	</p>
 	<p>
