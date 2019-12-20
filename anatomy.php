@@ -53,8 +53,8 @@ class ANATOMYC_BACK {
 		<script type="text/javascript">
 			<?php include 'anatomy-config.php'; ?>
 		</script>
-		<script type="text/javascript" src="<?php echo ANATOMYC_URL . 'back-parts.js'; ?>"></script>
-		<script type="text/javascript" src="<?php echo ANATOMYC_URL . 'front-parts.js'; ?>"></script>
+		<script type="text/javascript" src="<?php echo ANATOMYC_URL . 'js/back-parts.js'; ?>"></script>
+		<script type="text/javascript" src="<?php echo ANATOMYC_URL . 'js/front-parts.js'; ?>"></script>
 		<?php
 		wp_enqueue_style( 'anatomystyle-frontend', ANATOMYC_URL . 'anatomy-style.css', false, '1.0', 'all' );
 		wp_enqueue_script( 'anatomy-interact', ANATOMYC_URL . 'anatomy-interact.js', array('jquery'), 10, '1.0', true );
