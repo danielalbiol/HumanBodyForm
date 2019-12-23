@@ -8,14 +8,14 @@ function isTouchEnabled() {
 var array_zonas = [];
 
 jQuery(document).ready(function() {
-    jQuery("#anatomybaseback").hide().animate({ "opacity": "0" }, 100);
+    jQuery("#anatomybaseback").hide().animate({ "opacity": "0" }, 1000);
     jQuery(".gob").on("click", function() {
-        jQuery("#anatomybase").hide().animate({ "opacity": "0" }, 100);
-        jQuery("#anatomybaseback").show().animate({ "opacity": "1" }, 100);
+        jQuery("#anatomybase").hide().animate({ "opacity": "0" }, 1000);
+        jQuery("#anatomybaseback").show().animate({ "opacity": "1" }, 1000);
     });
     jQuery(".goa").on("click", function() {
-        jQuery("#anatomybaseback").hide().animate({ "opacity": "0" }, 100);
-        jQuery("#anatomybase").show().animate({ "opacity": "1" }, 100);
+        jQuery("#anatomybaseback").hide().animate({ "opacity": "0" }, 1000);
+        jQuery("#anatomybase").show().animate({ "opacity": "1" }, 1000);
     });
 });
 
@@ -63,7 +63,7 @@ function anaaddEvent(id, relationId) {
 
                 //Si no esta seleccionada 
             } else {
-                jQuery("#" + id).css({ "fill": "rgba(255, 0, 0, 0.3)" });
+                jQuery("#" + id).css({ "fill": "rgba(255, 0, 0, 0)" });
                 created = true;
 
                 //Eliminar las zonas seleccionadas al array para mostrarlas 
