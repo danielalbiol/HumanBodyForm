@@ -181,3 +181,9 @@
     cursor: pointer;
     float: left;
 }
+
+.siguiente:hover,
+.retroceder:hover {
+    color: #fff;
+    background-color: #252525;
+}
