@@ -1,9 +1,9 @@
-<p>
-	<label>
-		Zona del Tatuaje <br>
-	</label>
-</p>
 <div id="anatomywrapper"><!-- v1.0 -->
+	<p>
+		<label>
+			Zona del Tatuaje <br>
+		</label>
+	</p>
 	<div id="anatomybase">
 		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1390px" height="1370px" viewBox="0 0 1390 1370" xml:space="preserve">
 			<image overflow="visible" width="1390" height="1370" xlink:href="<?php echo ANATOMYC_URL . 'images/modela.png'; ?>" ></image>
@@ -151,6 +151,7 @@
 <div class="clear"></div>
 
 <form action=""  method="post" class="wpcf7-form" novalidate="novalidate">
+	<div id="primera-fase">
 	<p class="form-item">
 		<label>
     		<span class="wpcf7-form-control-wrap zona-tatuaje">
@@ -219,3 +220,14 @@
 			</span>
 		</label>
 	</p>
+	</div>
+	<div id="segunda fase">
+	<p class="form-item">
+		<label>
+			Tamaño del tatuaje <br>
+			<span class="wpcf7-form-control-wrap size-tatuaje">
+				<input type="text" name="size-tatuaje" id="size-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true">
+			</span>
+		</label>
+	</p>
+	</div>
