@@ -105,8 +105,8 @@
     }
 }
 
-.go_bck,
-.go_frt {
+.gob,
+.goa {
     fill: #72B8FC;
     opacity: 0.05;
     -webkit-transition: fill 0.1s ease;
@@ -116,8 +116,8 @@
     cursor: pointer;
 }
 
-.go_bck:hover,
-.go_frt:hover {
+.gob:hover,
+.goa:hover {
     opacity: 0.4;
 }
 
