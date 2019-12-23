@@ -161,14 +161,6 @@
 	</p>
 	<p class="form-item">
 		<label>
-			Descríbenos la idea <br>
-			<span class="wpcf7-form-control-wrap idea-tatuaje">
-				<textarea name="idea-tatuaje" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
-			</span>
-		</label>
-	</p>
-	<p class="form-item">
-		<label>
 			¿En qué lado? <br>
     		<span class="wpcf7-form-control-wrap radio-lado-tatuaje">
 				<span class="wpcf7-form-control wpcf7-radio">
@@ -221,12 +213,51 @@
 		</label>
 	</p>
 	</div>
-	<div id="segunda fase">
+	<div id="segunda-fase">
 	<p class="form-item">
 		<label>
 			Tamaño del tatuaje <br>
 			<span class="wpcf7-form-control-wrap size-tatuaje">
 				<input type="text" name="size-tatuaje" id="size-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true">
+			</span>
+		</label>
+	</p>
+	<p class="form-item">
+		<label>
+			Descríbenos la idea <br>
+			<span class="wpcf7-form-control-wrap idea-tatuaje">
+				<textarea name="idea-tatuaje" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
+			</span>
+		</label>
+	</p>
+	<p class="form-item">
+		<label>
+			¿Cuándo te puedes tatuar? <br>
+			<span class="wpcf7-form-control-wrap fecha-tatuaje">
+				<span class="wpcf7-form-control wpcf7-radio">
+					<span class="wpcf7-list-item first">
+						<input type="radio" name="fecha-tatuaje" value="Lo antes posible" checked="checked">
+						<span class="wpcf7-list-item-label">Lo antes posible</span>
+					</span>
+					<span class="wpcf7-list-item">
+						<input type="radio" name="fecha-tatuaje" value="Entre dos fechas">
+						<span class="wpcf7-list-item-label">Entre dos fechas</span>
+					</span>
+				</span>
+			</span>
+		</label>
+	</p>
+	<p class="form-item fecha-desde">
+		<label>Desde: <br>
+			<span class="wpcf7-form-control-wrap fecha-desde-tatuaje">
+				<input type="date" name="fecha-desde-tatuaje" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-date" aria-invalid="false">
+			</span>
+		</label>
+	</p>
+	<p class="form-item fecha-hasta">
+		<label>Hasta: <br>
+			<span class="wpcf7-form-control-wrap fecha-hasta-tatuaje">
+				<input type="date" name="fecha-hasta-tatuaje" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-date" aria-invalid="false">
 			</span>
 		</label>
 	</p>

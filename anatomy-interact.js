@@ -13,6 +13,7 @@ jQuery(document).ready(function() {
     //Ocultar la segunda fase del formulario y el botón de enviar al crear el documento
     jQuery("#segunda-fase").hide().animate({ "opacity": "0" }, 1000);
     jQuery(".wpcf7-submit").hide().animate({ "opacity": "0" }, 1000);
+    jQuery("#atras-form").hide().animate({ "opacity": "0" }, 1000);
 
     jQuery(".gob").on("click", function() {
         jQuery("#anatomybase").hide().animate({ "opacity": "0" }, 1000);
@@ -23,15 +24,37 @@ jQuery(document).ready(function() {
         jQuery("#anatomybase").show().animate({ "opacity": "1" }, 1000);
     });
 
+    //Seleccionamos siguiente
     jQuery("#avanzar-form").on("click", function() {
         //Ocultar todos los elementos del primer formulario
         jQuery("#primera-fase").hide().animate({ "opacity": "0" }, 1000);
         jQuery("#anatomywrapper").hide().animate({ "opacity": "0" }, 1000);
         jQuery(".imagen-zona-tatuaje").hide().animate({ "opacity": "0" }, 1000);
+        jQuery("#avanzar-form").hide().animate({ "opacity": "0" }, 1000);
+
+        //Ocultar las fechas del tatuaje, solamente se mostrarán si el usuario selecciona la opción Entre dos fechas
+        jQuery(".fecha-desde").hide().animate({ "opacity": "0" }, 1000);
+        jQuery(".fecha-hasta").hide().animate({ "opacity": "0" }, 1000);
 
         //Mostrar la segunda parte del formulario y el botón de enviar
         jQuery("#segunda-fase").show().animate({ "opacity": "1" }, 1000);
         jQuery(".wpcf7-submit").show().animate({ "opacity": "1" }, 1000);
+        jQuery(".wpcf7-submit").css({ 'float': 'right' });
+        jQuery("#atras-form").show().animate({ "opacity": "1" }, 1000);
+    });
+
+    //Seleccionamos siguiente
+    jQuery("#atras-form").on("click", function() {
+        //Ocultar todos los elementos del primer formulario
+        jQuery("#segunda-fase").hide().animate({ "opacity": "0" }, 1000);
+        jQuery("#atras-form").hide().animate({ "opacity": "0" }, 1000);
+        jQuery(".wpcf7-submit").hide().animate({ "opacity": "0" }, 1000);
+
+        //Mostrar la segunda parte del formulario y el botón de enviar
+        jQuery("#primera-fase").show().animate({ "opacity": "1" }, 1000);
+        jQuery("#anatomywrapper").show().animate({ "opacity": "1" }, 1000);
+        jQuery(".imagen-zona-tatuaje").show().animate({ "opacity": "1" }, 1000);
+        jQuery("#avanzar-form").show().animate({ "opacity": "1" }, 1000);
     });
 });
 
