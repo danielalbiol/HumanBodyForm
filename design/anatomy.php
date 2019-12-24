@@ -1,7 +1,7 @@
 <div id="anatomywrapper"><!-- v1.0 -->
 	<p>
 		<label>
-			Zona del Tatuaje <br>
+			<span class="titulo">Zona del Tatuaje</span> <br>
 		</label>
 	</p>
 	<div id="anatomybase">
@@ -161,7 +161,7 @@
 	</p>
 	<p class="form-item">
 		<label>
-			¿En qué lado? <br>
+			<span class="titulo">¿En qué lado?</span> <br>
     		<span class="wpcf7-form-control-wrap radio-lado-tatuaje">
 				<span class="wpcf7-form-control wpcf7-radio">
 					<span class="wpcf7-list-item first">
@@ -182,7 +182,7 @@
 	</p>
 	<p class="form-item">
 		<label>
-			Nombre <br>
+			<span  class="titulo">Nombre</span> <br>
     		<span class="wpcf7-form-control-wrap nombre-tatuaje">
 				<input type="text" name="nombre-tatuaje" id="nombre-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
 			</span>
@@ -190,7 +190,7 @@
 	</p>
 	<p class="form-item">
 		<label>
-			E-mail <br>
+			<span class="titulo">E-mail</span> <br>
     		<span class="wpcf7-form-control-wrap email-tatuaje">
 				<input type="email" name="email-tatuaje" id="email-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
 			</span>
@@ -198,7 +198,7 @@
 	</p>
 	<p class="form-item">
 		<label>
-			Número de teléfono <br>
+			<span class="titulo">Número de teléfono</span> <br>
     		<span class="wpcf7-form-control-wrap telefono-tatuaje">
 				<input type="number" name="telefono-tatuaje" id="telefono-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
 			</span>
@@ -206,7 +206,7 @@
 	</p>
 	<p class="form-item">
 		<label>
-			Elige el país <br>
+			<span class="titulo">Elige el país</span> <br>
 			<span class="wpcf7-form-control-wrap paises-tatuaje">
 				<?php include 'countries-select.php';?>
 			</span>
@@ -216,7 +216,7 @@
 	<div id="segunda-fase">
 	<p class="form-item">
 		<label>
-			Tamaño del tatuaje <br>
+			<span class="titulo">Tamaño del tatuaje</span> <br>
 			<span class="wpcf7-form-control-wrap size-tatuaje">
 				<span class="wpcf7-form-control wpcf7-radio">
 					<span class="wpcf7-list-item first">
@@ -245,7 +245,7 @@
 	</p>
 	<p class="form-item">
 		<label>
-			Descríbenos la idea <br>
+			<span class="titulo">Descríbenos la idea</span> <br>
 			<span class="wpcf7-form-control-wrap idea-tatuaje">
 				<textarea name="idea-tatuaje" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
 			</span>
@@ -253,7 +253,7 @@
 	</p>
 	<p class="form-item">
 		<label>
-			¿Cuándo te puedes tatuar? <br>
+			<span class="titulo">¿Cuándo te puedes tatuar?</span> <br>
 			<span class="wpcf7-form-control-wrap fecha-tatuaje">
 				<span class="wpcf7-form-control wpcf7-radio">
 					<span class="wpcf7-list-item first">
@@ -269,14 +269,16 @@
 		</label>
 	</p>
 	<p class="form-item fecha-desde">
-		<label>Desde: <br>
+		<label>
+			<span class="titulo">Desde:</span> <br>
 			<span class="wpcf7-form-control-wrap fecha-desde-tatuaje">
 				<input type="date" name="fecha-desde-tatuaje" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-date" aria-invalid="false">
 			</span>
 		</label>
 	</p>
 	<p class="form-item fecha-hasta">
-		<label>Hasta: <br>
+		<label>
+			<span class="titulo">Hasta:</span> <br>
 			<span class="wpcf7-form-control-wrap fecha-hasta-tatuaje">
 				<input type="date" name="fecha-hasta-tatuaje" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-date" aria-invalid="false">
 			</span>

@@ -187,3 +187,11 @@
     color: #fff;
     background-color: #252525;
 }
+
+.titulo {
+    font-weight: bold;
+}
+
+div.wpcf7-response-output {
+    margin: 3em 0.5em 1em !important;
+}
