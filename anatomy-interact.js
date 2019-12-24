@@ -56,6 +56,17 @@ jQuery(document).ready(function() {
         jQuery(".imagen-zona-tatuaje").show().animate({ "opacity": "1" }, 1000);
         jQuery("#avanzar-form").show().animate({ "opacity": "1" }, 1000);
     });
+
+    jQuery('input[type=radio][name=fecha-tatuaje]').change(function() {
+        if (this.value == 'Entre dos fechas') {
+            jQuery(".fecha-desde").show().animate({ "opacity": "1" }, 1000);
+            jQuery(".fecha-hasta").show().animate({ "opacity": "1" }, 1000);
+        }
+        if (this.value == 'Lo antes posible') {
+            jQuery(".fecha-desde").hide().animate({ "opacity": "0" }, 1000);
+            jQuery(".fecha-hasta").hide().animate({ "opacity": "0" }, 1000);
+        }
+    });
 });
 
 jQuery(function() {

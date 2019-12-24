@@ -218,7 +218,28 @@
 		<label>
 			Tamaño del tatuaje <br>
 			<span class="wpcf7-form-control-wrap size-tatuaje">
-				<input type="text" name="size-tatuaje" id="size-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true">
+				<span class="wpcf7-form-control wpcf7-radio">
+					<span class="wpcf7-list-item first">
+						<input type="radio" name="size-tatuaje" value="Menor que una tarjeta de crédito" checked="checked">
+						<span class="wpcf7-list-item-label">Menor que una tarjeta de crédito</span>
+					</span>
+					<span class="wpcf7-list-item">
+						<input type="radio" name="size-tatuaje" value="Menor que una cuarta (1/4) parte de folio A4">
+						<span class="wpcf7-list-item-label">Menor que una cuarta (1/4) parte de folio A4</span>
+					</span>
+					<span class="wpcf7-list-item">
+						<input type="radio" name="size-tatuaje" value="Alrededor de medio (1/2) folio">
+						<span class="wpcf7-list-item-label">Alrededor de medio (1/2) folio</span>
+					</span>
+					<span class="wpcf7-list-item">
+						<input type="radio" name="size-tatuaje" value="Alrededor de un folio">
+						<span class="wpcf7-list-item-label">Alrededor de un folio</span>
+					</span>
+					<span class="wpcf7-list-item">
+						<input type="radio" name="size-tatuaje" value="Mayor que un folio A4">
+						<span class="wpcf7-list-item-label">Mayor que un folio A4</span>
+					</span>
+				</span>
 			</span>
 		</label>
 	</p>
