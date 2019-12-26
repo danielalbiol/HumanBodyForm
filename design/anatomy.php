@@ -182,40 +182,6 @@
 	</p>
 	<p class="form-item">
 		<label>
-			<span  class="titulo">Nombre</span> <br>
-    		<span class="wpcf7-form-control-wrap nombre-tatuaje">
-				<input type="text" name="nombre-tatuaje" id="nombre-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
-			</span>
-		</label>
-	</p>
-	<p class="form-item">
-		<label>
-			<span class="titulo">E-mail</span> <br>
-    		<span class="wpcf7-form-control-wrap email-tatuaje">
-				<input type="email" name="email-tatuaje" id="email-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
-			</span>
-		</label>
-	</p>
-	<p class="form-item">
-		<label>
-			<span class="titulo">Número de teléfono</span> <br>
-    		<span class="wpcf7-form-control-wrap telefono-tatuaje">
-				<input type="number" name="telefono-tatuaje" id="telefono-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
-			</span>
-		</label>
-	</p>
-	<p class="form-item">
-		<label>
-			<span class="titulo">Elige el país</span> <br>
-			<span class="wpcf7-form-control-wrap paises-tatuaje">
-				<?php include 'countries-select.php';?>
-			</span>
-		</label>
-	</p>
-	</div>
-	<div id="segunda-fase">
-	<p class="form-item">
-		<label>
 			<span class="titulo">Tamaño del tatuaje</span> <br>
 			<span class="wpcf7-form-control-wrap size-tatuaje">
 				<span class="wpcf7-form-control wpcf7-radio">
@@ -251,6 +217,10 @@
 			</span>
 		</label>
 	</p>
+	</div>
+
+	<!--- Segunda fase del formulario --->
+	<div id="segunda-fase">
 	<p class="form-item">
 		<label>
 			<span class="titulo">¿Cuándo te puedes tatuar?</span> <br>
@@ -281,6 +251,38 @@
 			<span class="titulo">Hasta:</span> <br>
 			<span class="wpcf7-form-control-wrap fecha-hasta-tatuaje">
 				<input type="date" name="fecha-hasta-tatuaje" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-date" aria-invalid="false">
+			</span>
+		</label>
+	</p>
+	<p class="form-item">
+		<label>
+			<span  class="titulo">Nombre</span> <br>
+    		<span class="wpcf7-form-control-wrap nombre-tatuaje">
+				<input type="text" name="nombre-tatuaje" id="nombre-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+			</span>
+		</label>
+	</p>
+	<p class="form-item">
+		<label>
+			<span class="titulo">E-mail</span> <br>
+    		<span class="wpcf7-form-control-wrap email-tatuaje">
+				<input type="email" name="email-tatuaje" id="email-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+			</span>
+		</label>
+	</p>
+	<p class="form-item">
+		<label>
+			<span class="titulo">Número de teléfono</span> <br>
+    		<span class="wpcf7-form-control-wrap telefono-tatuaje">
+				<input type="number" name="telefono-tatuaje" id="telefono-tatuaje" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+			</span>
+		</label>
+	</p>
+	<p class="form-item">
+		<label>
+			<span class="titulo">Elige el país</span> <br>
+			<span class="wpcf7-form-control-wrap paises-tatuaje">
+				<?php include 'countries-select.php';?>
 			</span>
 		</label>
 	</p>
