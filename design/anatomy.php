@@ -150,7 +150,7 @@
 </div>
 <div class="clear"></div>
 
-<form action=""  method="post" class="wpcf7-form" novalidate="novalidate">
+<form  method="post" action="" class="wpcf7-form" novalidate="novalidate">
 	<div id="primera-fase">
 	<p class="form-item">
 		<label>
@@ -165,15 +165,15 @@
     		<span class="wpcf7-form-control-wrap radio-lado-tatuaje">
 				<span class="wpcf7-form-control wpcf7-radio">
 					<span class="wpcf7-list-item first">
-						<input type="radio" name="radio-lado-tatuaje" value="Izquierdo" checked="checked">
+						<input type="radio" name="lado-tatuaje" value="Izquierdo" checked="checked">
 						<span class="wpcf7-list-item-label">Izquierdo</span>
 					</span>
 					<span class="wpcf7-list-item">
-						<input type="radio" name="radio-lado-tatuaje" value="Centrado">
+						<input type="radio" name="lado-tatuaje" value="Centrado">
 						<span class="wpcf7-list-item-label">Centrado</span>
 					</span>
 					<span class="wpcf7-list-item last">
-						<input type="radio" name="radio-lado-tatuaje" value="Derecho">
+						<input type="radio" name="lado-tatuaje" value="Derecho">
 						<span class="wpcf7-list-item-label">Derecho</span>
 					</span>
 				</span>
