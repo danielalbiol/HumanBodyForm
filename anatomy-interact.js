@@ -30,6 +30,7 @@ jQuery(document).ready(function() {
         jQuery("#primera-fase").hide().animate({ "opacity": "0" }, 1000);
         jQuery("#anatomywrapper").hide().animate({ "opacity": "0" }, 1000);
         jQuery(".imagen-zona-tatuaje").hide().animate({ "opacity": "0" }, 1000);
+        jQuery(".imagen-referencia-tatuaje").hide().animate({ "opacity": "0" }, 1000);
         jQuery("#avanzar-form").hide().animate({ "opacity": "0" }, 1000);
 
         //Ocultar las fechas del tatuaje, solamente se mostrarán si el usuario selecciona la opción Entre dos fechas
@@ -54,6 +55,7 @@ jQuery(document).ready(function() {
         jQuery("#primera-fase").show().animate({ "opacity": "1" }, 1000);
         jQuery("#anatomywrapper").show().animate({ "opacity": "1" }, 1000);
         jQuery(".imagen-zona-tatuaje").show().animate({ "opacity": "1" }, 1000);
+        jQuery(".imagen-referencia-tatuaje").show().animate({ "opacity": "1" }, 1000);
         jQuery("#avanzar-form").show().animate({ "opacity": "1" }, 1000);
     });
 
