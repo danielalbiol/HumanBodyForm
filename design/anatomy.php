@@ -183,28 +183,28 @@
 	<p class="form-item">
 		<label>
 			<span class="titulo">Tamaño del tatuaje</span> <br>
-			<span class="wpcf7-form-control-wrap size-tatuaje">
+			<span class="wpcf7-form-control-wrap size-tatuaje" style="padding-top: 1em;">
 				<span class="wpcf7-form-control wpcf7-radio">
-					<span class="wpcf7-list-item first">
-						<input type="radio" name="size-tatuaje" value="Menor que una tarjeta de crédito" checked="checked">
-						<span class="wpcf7-list-item-label">Menor que una tarjeta de crédito</span>
-					</span>
-					<span class="wpcf7-list-item">
-						<input type="radio" name="size-tatuaje" value="Menor que una cuarta (1/4) parte de folio A4">
-						<span class="wpcf7-list-item-label">Menor que una cuarta (1/4) parte de folio A4</span>
-					</span>
-					<span class="wpcf7-list-item">
-						<input type="radio" name="size-tatuaje" value="Alrededor de medio (1/2) folio">
-						<span class="wpcf7-list-item-label">Alrededor de medio (1/2) folio</span>
-					</span>
-					<span class="wpcf7-list-item">
-						<input type="radio" name="size-tatuaje" value="Alrededor de un folio">
-						<span class="wpcf7-list-item-label">Alrededor de un folio</span>
-					</span>
-					<span class="wpcf7-list-item">
-						<input type="radio" name="size-tatuaje" value="Mayor que un folio A4">
-						<span class="wpcf7-list-item-label">Mayor que un folio A4</span>
-					</span>
+					<label class="wpcf7-list-item first">
+						<input type="radio" name="size-tatuaje" class="size-tatuaje" value="Menor que una tarjeta de crédito" checked="checked">
+						<img src="<?php echo ANATOMYC_URL . 'images/creditcard.jpg'; ?>" style="width: 210px;" class="wpcf7-list-item-label"></img>
+					</label>
+					<label class="wpcf7-list-item">
+						<input type="radio" name="size-tatuaje" class="size-tatuaje" value="Menor que una cuarta (1/4) parte de folio A4">
+						<img src="<?php echo ANATOMYC_URL . 'images/1-cuarto.jpg'; ?>" style="width: 210px;" class="wpcf7-list-item-label"></img>
+					</label>
+					<label class="wpcf7-list-item">
+						<input type="radio" name="size-tatuaje" class="size-tatuaje" value="Alrededor de medio (1/2) folio">
+						<img src="<?php echo ANATOMYC_URL . 'images/medio-folio.jpg'; ?>" style="width: 210px;" class="wpcf7-list-item-label"></img>
+					</label>
+					<label class="wpcf7-list-item">
+						<input type="radio" name="size-tatuaje" class="size-tatuaje" value="Alrededor de un folio">
+						<img src="<?php echo ANATOMYC_URL . 'images/a4.jpg'; ?>" style="width: 210px;" class="wpcf7-list-item-label"></img>
+					</label>
+					<label class="wpcf7-list-item">
+						<input type="radio" name="size-tatuaje" class="size-tatuaje" value="Mayor que un folio A4">
+						<img src="<?php echo ANATOMYC_URL . 'images/mayor-de-A4.jpg'; ?>" style="width: 210px;" class="wpcf7-list-item-label"></img>
+					</label>
 				</span>
 			</span>
 		</label>

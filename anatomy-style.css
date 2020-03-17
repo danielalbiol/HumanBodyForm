@@ -195,3 +195,27 @@
 div.wpcf7-response-output {
     margin: 3em 0.5em 1em !important;
 }
+
+
+/* HIDE RADIO */
+
+[type=radio].size-tatuaje {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* IMAGE STYLES */
+
+[type=radio]+img {
+    cursor: pointer;
+}
+
+
+/* CHECKED STYLES */
+
+[type=radio]:checked+img {
+    outline: 2px solid #f00;
+}
